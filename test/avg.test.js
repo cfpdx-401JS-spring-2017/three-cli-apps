@@ -12,7 +12,13 @@ describe('avg', () => {
     });
 
     it('returns NaN for empty array', () => {
-        const noArguments = average([]);
+        const emptyArray = average([]);
+        assert(isNaN(emptyArray));
+
+    });
+
+    it ('returns NaN for no arguments', () => {
+        const noArguments = average();
         assert(isNaN(noArguments));
 
     });
