@@ -1,8 +1,7 @@
 'use strict';
+const powerOf = require('./power');
 
-function powerOf(base, exp) {
-
-    return Math.pow(base, exp);
-}
-
-module.exports = powerOf;
+const base = process.argv[2];
+const exp = process.argv[3];
+const result = powerOf(base, exp);
+console.log(result);
