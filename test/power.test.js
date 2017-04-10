@@ -1,5 +1,5 @@
 const assert = require('assert');
-const powerOf = require('../power-of');
+const powerOf = require('../power');
 
 describe('power of', () => {
 
