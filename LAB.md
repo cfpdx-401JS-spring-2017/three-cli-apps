@@ -63,8 +63,7 @@ You should write tests first and write a test for each meaningful "case".
 
 ### Bonus
 
-You are free to try out `commander` or `minimist` to process args. But you must integrate them into your project
-in a logical way so as to preserve modularity.
+You are free to try out `commander` or `minimist` to process args. But you must integrate them into your project in a logical way so as to preserve modularity.
 
 ### Rubric
 
