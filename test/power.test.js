@@ -1,5 +1,5 @@
 const assert = require('assert');
-const powerOf = require('../power-of');
+const powerOf = require('../power');
 
 describe('power of', () => {
 
@@ -9,7 +9,8 @@ describe('power of', () => {
   });
 
   it('returns a value when no numbers are entered', () => {
-    const result = power(3, 3);
+    const stringResult = powerOf(3, 3);
+    assert.equal(stringResult, 'Please enter two numbers');
   });
 
 });
