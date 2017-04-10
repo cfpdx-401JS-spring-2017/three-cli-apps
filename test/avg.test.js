@@ -10,6 +10,14 @@ describe('avg', () => {
         const argumentAverage = average([3, 4, 6, 0, 3]);
         assert.equal(argumentAverage, 3.2);
     });
+
+    it('returns NaN for empty array', () => {
+        const noArguments = average([]);
+        assert(isNaN(noArguments));
+
+    });
 });
+
+
 
 //test using mocha
