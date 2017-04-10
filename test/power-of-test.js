@@ -1,5 +1,5 @@
 const assert = require('assert');
-const powerof = require('../power-of');
+const powerof = require('../power');
 
 describe('power of', () => {
     it('calculates the power of a number', () => {
