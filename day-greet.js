@@ -1,5 +1,4 @@
 'use strict';
-
 //1. write a basic function that returns zero and 'module.exports = basic function that you wrote'
 
 function dayGreet(hour, name) {
@@ -17,3 +16,4 @@ function dayGreet(hour, name) {
 
 
 module.exports = dayGreet;
+
