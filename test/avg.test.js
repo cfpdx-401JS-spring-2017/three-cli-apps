@@ -1,6 +1,5 @@
 
 const assert = require('assert');
-//../takes you up a level....requiring the avg.js file
 const average = require('../avg');
 //describe is what we're testing
 describe('avg', () => {
