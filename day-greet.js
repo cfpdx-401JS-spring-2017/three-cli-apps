@@ -4,7 +4,7 @@ function dayGreeting(name, time) {
   let greeting;
   let splitTime = time.split(':').join('');
   let timeNumber = parseInt(splitTime);
-  
+
   if(timeNumber <= 1159) {
     greeting = 'morning';
   } else if(timeNumber >= 1200 && timeNumber <=  1659) {
@@ -12,7 +12,7 @@ function dayGreeting(name, time) {
   } else {
     greeting = 'evening';
   }
-  return `hello ${name}, good ${greeting}`;
+  return `good ${greeting} ${name}`;
 }
 
 module.exports = dayGreeting;
