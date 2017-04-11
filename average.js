@@ -4,6 +4,7 @@ function avgOf(array) {
   const sum = array.reduce((acc, cur) => {
     acc = parseInt(acc);
     acc += parseInt(cur);
+
     return acc;
   });
 
